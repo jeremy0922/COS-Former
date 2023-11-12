@@ -1,13 +1,11 @@
 # COS-Former: Hierarchical Fusion Transformer for Camouflaged Object Segmentation
 ## Prerequisites
-The whole training process can be done on  RTX3090 + Pytorch 1.6
+The whole training process can be done on  RTX3090 + Pytorch 1.12
 
 ## Datasets
 ### Training Set
 We use the training set of [COD10K]（https://drive.google.com/file/d/1vRYAie0JcNStcSwagmCq55eirGyMYGm5/view） and [CAMO](https://drive.google.com/open?id=1h-OqZdwkuPhBvGcVAwmh0f1NGqlH_4B6)to train our model. 
-````
-    parser.add_argument("--path",default='data/COD10K', type=str)
-````
+
 ### Testing Set
 We test our model on the testing set of [COD10K]（https://drive.google.com/file/d/1vRYAie0JcNStcSwagmCq55eirGyMYGm5/view） and  [CAMO](https://drive.google.com/open?id=1h-OqZdwkuPhBvGcVAwmh0f1NGqlH_4B6)
 
